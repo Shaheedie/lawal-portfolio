@@ -1,0 +1,55 @@
+{
+  "title": "Research CV",
+  "audience": "Research supervisors, labs and academic collaborators",
+  "headline": "Research Interests: Reliable Machine Learning · Health Informatics",
+  "summary": "First Class Computer Science graduate interested in the reliability, transferability and practical interpretation of machine-learning systems. Current work examines validation design and label comparability for maternal risk classification across public datasets.",
+  "education": [
+    {
+      "title": "BSc Computer Science",
+      "organization": "",
+      "date": "",
+      "details": "First Class · CGPA 4.82/5.00"
+    }
+  ],
+  "research": [
+    {
+      "title": "Validation reliability and transferability of maternal risk classification across two public datasets",
+      "organization": "Manuscript in preparation; independent verification ongoing",
+      "date": "2026",
+      "details": "Examines profile-grouped validation, repeated predictors, source-label provenance, and limited cross-dataset label agreement; currently under methodological revision."
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "FraudLens",
+      "organization": "Reproducible ML study",
+      "date": "2026",
+      "details": "Experimental evaluation under extreme class imbalance with held-out testing and documented metrics."
+    },
+    {
+      "title": "StudentPath",
+      "organization": "Education analytics",
+      "date": "2026",
+      "details": "Studied availability-aware prediction stages and trade-offs between early prediction and information access."
+    }
+  ],
+  "certifications": [
+    "Kaggle — Intro to Machine Learning",
+    "Kaggle — Intro to SQL"
+  ],
+  "skills": [
+    "Experimental design",
+    "Python",
+    "Statistical evaluation",
+    "scikit-learn",
+    "SQL",
+    "TensorFlow",
+    "Data analysis",
+    "Research writing"
+  ],
+  "additional": [
+    "Research interests: predictive-model evaluation, dataset shift, health informatics, responsible AI."
+  ],
+  "pdf": ""
+}

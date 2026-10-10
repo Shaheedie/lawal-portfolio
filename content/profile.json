@@ -1,0 +1,39 @@
+{
+  "name": "Lawal Nasir Lawal",
+  "firstName": "Lawal",
+  "initials": "LN",
+  "tagline": "Computer science graduate working across applied AI, dependable software, and research.",
+  "shortBio": "I build and study technology with a focus on practical usefulness, careful evaluation, and clear engineering decisions. My work spans machine learning, data-intensive systems, and full-stack software.",
+  "location": "Nigeria",
+  "degree": "BSc Computer Science",
+  "classification": "First Class",
+  "gpa": "4.82 / 5.00",
+  "institution": "",
+  "email": "",
+  "github": "https://github.com/Shaheedie",
+  "linkedin": "https://www.linkedin.com/in/lawal-lawal-a35220359",
+  "siteTitle": "Lawal Nasir Lawal — Software Engineering, AI & Research",
+  "heroEyebrow": "COMPUTER SCIENCE · ENGINEERING · RESEARCH",
+  "heroLead": "Building software with clarity. Researching AI with rigor.",
+  "heroSupporting": "First Class Computer Science graduate interested in the space between strong technical systems, reliable machine learning, and real-world problems.",
+  "researchInterests": [
+    "Machine learning evaluation",
+    "Responsible AI",
+    "Health informatics",
+    "Data-intensive software"
+  ],
+  "skills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "SQL",
+    "scikit-learn",
+    "TensorFlow",
+    "PostgreSQL",
+    "Git"
+  ],
+  "availabilityNote": "Open to research conversations and technical opportunities.",
+  "footerLine": "Thoughtful systems. Measurable impact.",
+  "graduationYear": ""
+}

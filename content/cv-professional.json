@@ -1,0 +1,59 @@
+{
+  "title": "Professional CV",
+  "audience": "Software engineering, data, and ML opportunities",
+  "headline": "Software Engineer | Applied Machine Learning",
+  "summary": "Computer Science graduate building full-stack products and practical machine-learning systems. Experienced with Python, React, Node.js, SQL, reproducible experimentation, and clear evaluation of model behavior.",
+  "education": [
+    {
+      "title": "BSc Computer Science",
+      "organization": "",
+      "date": "",
+      "details": "First Class · CGPA 4.82/5.00"
+    }
+  ],
+  "research": [
+    {
+      "title": "Maternal health classifier validation",
+      "organization": "Manuscript in preparation",
+      "date": "2026",
+      "details": "Investigating profile overlap, validation design and cross-dataset reliability."
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "Mewar Market",
+      "organization": "React · Express · MySQL",
+      "date": "2026",
+      "details": "Campus marketplace with listings, authentication, recommendations, fraud-risk rules and administrative workflows."
+    },
+    {
+      "title": "FraudLens",
+      "organization": "Python · scikit-learn · SQLite",
+      "date": "2026",
+      "details": "Rare-event fraud detection using chronological validation, classification model comparison, cost-aware threshold selection, and unit tests."
+    },
+    {
+      "title": "StudentPath",
+      "organization": "Python · SQL · Streamlit",
+      "date": "2026",
+      "details": "Built multi-stage higher-education outcome analytics with reproducible pipelines and CI."
+    }
+  ],
+  "certifications": [
+    "Kaggle — Intro to Machine Learning",
+    "Kaggle — Intro to SQL"
+  ],
+  "skills": [
+    "React",
+    "JavaScript / TypeScript",
+    "Node.js",
+    "Python",
+    "REST APIs",
+    "SQL",
+    "Git",
+    "scikit-learn"
+  ],
+  "additional": [],
+  "pdf": ""
+}

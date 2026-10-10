@@ -1,0 +1,61 @@
+{
+  "title": "Academic CV",
+  "audience": "Postgraduate admissions, scholarships, academic programmes",
+  "headline": "Computer Science Graduate | Applied Machine Learning & Software Engineering",
+  "summary": "First Class BSc Computer Science graduate with interests in machine-learning reliability, data-intensive software, and responsible applications of AI. Academic profile supported by applied technical projects and a maternal-health machine-learning manuscript in preparation.",
+  "education": [
+    {
+      "title": "BSc Computer Science",
+      "organization": "",
+      "date": "",
+      "details": "First Class · CGPA 4.82/5.00"
+    }
+  ],
+  "research": [
+    {
+      "title": "Validation reliability and transferability of maternal risk classification across two public datasets",
+      "organization": "Manuscript in preparation",
+      "date": "2026",
+      "details": "Research on validation design, repeated measurement profiles, dataset-label comparability, and responsible interpretation of reported classifier performance."
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "FraudLens — Rare-event fraud detection",
+      "organization": "Independent project",
+      "date": "2026",
+      "details": "Developed a time-aware fraud modeling pipeline; held-out PR-AUC 0.8179 and F1 81.75% on a public benchmark."
+    },
+    {
+      "title": "StudentPath — Student outcome analytics",
+      "organization": "Independent project",
+      "date": "2026",
+      "details": "Compared prediction at enrollment, semester one, and full-record stages, with documented performance and use limits."
+    },
+    {
+      "title": "Mewar Market — Intelligent student marketplace",
+      "organization": "Software project",
+      "date": "2026",
+      "details": "Built a React/Express/MySQL application with recommendations and administrative review workflows."
+    }
+  ],
+  "certifications": [
+    "Kaggle — Intro to Machine Learning",
+    "Kaggle — Intro to SQL"
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "scikit-learn",
+    "TensorFlow",
+    "JavaScript / TypeScript",
+    "React",
+    "Node.js",
+    "Git"
+  ],
+  "additional": [
+    "References available on request."
+  ],
+  "pdf": ""
+}

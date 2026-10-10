@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "maternal-health-validation",
+    "title": "Validation reliability and transferability of maternal risk classification across two public datasets",
+    "kind": "Research manuscript",
+    "status": "Manuscript in preparation",
+    "year": "2026",
+    "published": true,
+    "featured": true,
+    "authors": "Author list pending final confirmation",
+    "venue": "Journal not yet confirmed",
+    "summary": "A methodological investigation into how duplicate measurement profiles, evaluation design, and differences in source labels influence the interpretation of machine-learning performance in maternal risk classification.",
+    "contribution": "Focuses on profile-grouped validation, limitations of cross-dataset comparisons, and the distinction between supplied risk labels and independently established clinical outcomes.",
+    "caveat": "Under academic review and further verification. Not submitted, accepted, published, or clinically validated.",
+    "doi": "",
+    "url": "",
+    "image": "/media/projects/research.svg",
+    "tags": ["Medical informatics", "Evaluation methodology", "Dataset shift", "Responsible AI"]
+  }
+]
