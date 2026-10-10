@@ -1,0 +1,134 @@
+# Git-based visual content editor: https://app.pagescms.org
+# No database, self-hosted admin server or OAuth implementation in the portfolio.
+media:
+  input: media
+  output: /media
+  rename: safe
+content:
+  - name: profile
+    label: Profile and site text
+    type: file
+    path: content/profile.json
+    format: json
+    fields:
+      - { name: name, label: Full name, type: string, required: true }
+      - { name: firstName, type: string }
+      - { name: initials, type: string }
+      - { name: tagline, type: text }
+      - { name: shortBio, label: Biography, type: text }
+      - { name: location, type: string }
+      - { name: degree, type: string }
+      - { name: classification, type: string }
+      - { name: gpa, label: CGPA, type: string }
+      - { name: institution, label: Official institution name, type: string }
+      - { name: graduationYear, label: Graduation year, type: string }
+      - { name: email, type: string, description: Optional; keep blank until you're comfortable publishing an address }
+      - { name: github, type: string }
+      - { name: linkedin, type: string }
+      - { name: siteTitle, type: string }
+      - { name: heroEyebrow, type: string }
+      - { name: heroLead, type: string }
+      - { name: heroSupporting, type: text }
+      - { name: researchInterests, type: string, list: true }
+      - { name: skills, type: string, list: true }
+      - { name: availabilityNote, type: text }
+      - { name: footerLine, type: string }
+
+  - name: projects
+    label: Projects — add, edit, reorder
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, type: string, required: true, description: Unique lowercase URL ID, e.g. fraudlens }
+      - { name: title, type: string, required: true }
+      - { name: category, type: select, options: { values: [Machine Learning, Software Engineering, Research, Other] } }
+      - { name: year, type: string }
+      - { name: published, type: boolean, description: Hide drafts until ready }
+      - { name: featured, type: boolean, description: Show among up to three homepage feature cards }
+      - { name: tagline, type: text }
+      - { name: summary, type: text, required: true }
+      - { name: challenge, type: text }
+      - { name: approach, type: text }
+      - { name: outcome, type: text }
+      - { name: impactMetric, type: string }
+      - { name: metricLabel, type: string }
+      - { name: technologies, type: string, list: true }
+      - { name: image, type: image }
+      - { name: github, type: string }
+      - { name: demo, type: string }
+      - { name: featureNumber, type: string }
+
+  - name: publications
+    label: Publications and manuscripts
+    type: file
+    path: content/publications.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: title, type: string, required: true }
+      - { name: kind, type: string }
+      - { name: status, type: select, options: { values: [Research in progress, Manuscript in preparation, Submitted / under review, Preprint, Accepted, Published] }, description: Use only the stage actually reached }
+      - { name: year, type: string }
+      - { name: published, type: boolean, description: Whether to display this entry on the portfolio }
+      - { name: featured, type: boolean }
+      - { name: authors, type: string }
+      - { name: venue, type: string }
+      - { name: summary, type: text }
+      - { name: contribution, type: text }
+      - { name: caveat, type: text }
+      - { name: doi, type: string }
+      - { name: url, type: string }
+      - { name: image, type: image }
+      - { name: tags, type: string, list: true }
+
+  - name: academiccv
+    label: CV — Academic
+    type: file
+    path: content/cv-academic.json
+    format: json
+    fields: &cv_fields
+      - { name: title, type: string }
+      - { name: audience, type: text }
+      - { name: headline, type: text }
+      - { name: summary, type: text }
+      - name: education
+        type: object
+        list: true
+        fields: &cv_entries
+          - { name: title, type: string }
+          - { name: organization, type: string }
+          - { name: date, type: string }
+          - { name: details, type: text }
+      - name: research
+        type: object
+        list: true
+        fields: *cv_entries
+      - name: experience
+        type: object
+        list: true
+        fields: *cv_entries
+      - name: projects
+        type: object
+        list: true
+        fields: *cv_entries
+      - { name: certifications, type: string, list: true }
+      - { name: skills, type: string, list: true }
+      - { name: additional, type: string, list: true }
+      - { name: pdf, label: Optional preformatted PDF, type: file }
+
+  - name: professionalcv
+    label: CV — Professional
+    type: file
+    path: content/cv-professional.json
+    format: json
+    fields: *cv_fields
+
+  - name: researchcv
+    label: CV — Research
+    type: file
+    path: content/cv-research.json
+    format: json
+    fields: *cv_fields
