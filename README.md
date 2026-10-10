@@ -75,13 +75,6 @@ For the chosen CV, add an entry under `experience` with `title`, `organization`,
 
 A header button switches the entire website between light and dark. It remembers preference using browser local storage, respects the system theme on first visit, and can be operated from keyboard or mobile. Printable CV pages always use a paper-friendly light version.
 
-## Deploy on Vercel (no build command)
-
-1. Push the portfolio repository to GitHub.
-2. Import that repository at https://vercel.com/new.
-3. Set Framework Preset to **Other** (static website). Set **Build Command** to empty / override to blank if offered; use the **repository root** as the output directory (or leave Vercel's default static output settings when they already serve the root).
-4. Deploy. The site is entirely static and requires **no environment variables**.
-5. Visit `/work/`, `/research/`, `/cv/academic/` and test switching themes.
 
 **Important:** The site uses root-relative `/` links and assumes deployment at a domain root. Deployments under `username.github.io/repository-name/` need a configured base path, so Vercel or a custom root domain is preferred.
 
